@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    display: flex;
+
+}
+
+.header-img {
+    margin-bottom: 30px;
+    padding-bottom: 50px;
+    width: 650px;
+    height: 600px;
+    background-image: url(images/shapes/Group\ 8449.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+
+
+}
+
+.header-img img {
+    margin-bottom: 30px;
+    padding-bottom: 50px;
+    width: 500px;
+    height: 450px;
+    position: absolute;
+
+}
+
+#Order-btn {
+    background-image: linear-gradient(hsl(16, 100%, 50%) rgb(27, 25, 25));
+    color: rgb(31, 28, 28);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 7px;
+    font-size: 17px;
+
+}
+
+span {
+    color: orange;
+}
+
+.headline {
+    margin-left: 40px;
+    margin-top: 60px;
+    width: 550px;
+
+}
+
+.headline h1 {
+    font-size: 60px;
+    color: rgba(62, 67, 70, 0.877);
+}
+
+.headline p {
+    font-size: 25px;
+    color: rgba(62, 67, 70, 0.877);
+}
