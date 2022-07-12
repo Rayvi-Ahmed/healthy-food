@@ -31,12 +31,13 @@ body {
 }
 
 #Order-btn {
-    background-image: linear-gradient(hsl(16, 100%, 50%) rgb(27, 25, 25));
-    color: rgb(31, 28, 28);
-    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    padding: 15px 25px;
     text-decoration: none;
-    border-radius: 7px;
+    border-radius: 10px;
     font-size: 17px;
+    margin-left: 40px;
 
 }
 
@@ -59,4 +60,60 @@ span {
 .headline p {
     font-size: 25px;
     color: rgba(62, 67, 70, 0.877);
+}
+
+.section-1 {
+    display: flex;
+    margin-top: 30px;
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    padding-top: 10px;
+}
+
+.lady-person img {
+    width: 280px;
+    height: 450px;
+    margin-left: 100px;
+    padding: 10px 20px 30px;
+}
+
+.about {
+    width: 550px;
+    height: 400px;
+    color: lightslategray;
+    padding-left: 150px;
+    text-align: justify;
+}
+
+.about p {
+
+    font-size: 25px;
+}
+
+.sec-2>div {
+
+    margin-left: 30%;
+    text-align: center;
+    margin-right: 30%;
+    font-size: x-large;
+    color: rgb(57, 59, 61);
+    width: 650px;
+
+}
+
+.sec-3 {
+    margin: 10px 20px;
+}
+
+.card img {
+    width: 550px;
+    height: 300px;
+    border: solid none;
+    border-radius: 20px;
+    padding: 40px 30px 40px;
+    background-color: aliceblue;
+
 }
