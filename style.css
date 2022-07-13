@@ -105,15 +105,71 @@ span {
 }
 
 .sec-3 {
-    margin: 10px 20px;
+    display: flex;
 }
 
-.card img {
-    width: 550px;
-    height: 300px;
-    border: solid none;
-    border-radius: 20px;
-    padding: 40px 30px 40px;
-    background-color: aliceblue;
+.Racipie {
+    display: flex;
+    margin-left: 20%;
+}
 
+.RC {
+    padding: 10px 10px;
+    border: solid lemonchiffon none;
+    border-radius: 20px;
+    background-color: beige;
+    box-shadow: 5px 5px 10px lightgrey;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.RC img {
+
+    width: 400px;
+}
+
+.RC p {
+    text-align: justify;
+    width: 400px;
+}
+
+.performance {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 10%;
+    text-align: center;
+    margin-right: 10%;
+
+
+}
+
+.like {
+    padding: 10px 10px;
+    font-size: 30px;
+    border: none solid 1px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px lightslategray;
+    background-color: beige;
+    width: 600px;
+
+}
+
+.like p {
+
+    font-size: 15px;
+}
+
+footer {
+    background-color: black;
+    height: 200px;
+    color: white;
+
+}
+
+.fotter {
+    margin-left: 7%;
+    text-align: center;
+    margin-right: 90px;
+    margin-top: 20px;
+    padding-top: 20px;
 }
